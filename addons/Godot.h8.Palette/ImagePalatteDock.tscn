@@ -45,8 +45,11 @@ layout_mode = 2
 clip_text = true
 
 [node name="IndexMapTextureRect" type="TextureRect" parent="HSplitContainer/VBoxContainer2"]
+texture_filter = 1
 layout_mode = 2
 size_flags_vertical = 3
+expand_mode = 1
+stretch_mode = 4
 
 [node name="VBoxContainer" type="VBoxContainer" parent="HSplitContainer"]
 layout_mode = 2
@@ -66,6 +69,7 @@ clip_text = true
 texture_filter = 1
 custom_minimum_size = Vector2(0, 32)
 layout_mode = 2
+expand_mode = 1
 
 [node name="HBoxContainer" type="HBoxContainer" parent="HSplitContainer/VBoxContainer"]
 layout_mode = 2
@@ -105,6 +109,9 @@ layout_mode = 2
 clip_text = true
 
 [node name="SourceTextureRect" type="TextureRect" parent="HSplitContainer/VBoxContainer"]
+texture_filter = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+expand_mode = 1
+stretch_mode = 4
